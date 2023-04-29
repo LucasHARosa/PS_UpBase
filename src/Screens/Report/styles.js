@@ -47,7 +47,7 @@ export const styles = StyleSheet.create({
     marginLeft:12,
     fontSize:18,
     fontWeight:'medium',
-    color:'#596462'
+    color:'#424F4D'
   },
   containerInput:{
     marginTop:24,
@@ -56,7 +56,7 @@ export const styles = StyleSheet.create({
   inputTitle:{
     width:'100%',
     borderRadius:3,
-    borderWidth:2,
+    borderWidth:1,
     borderColor:'#dadada',
     padding:16,
   },
@@ -64,7 +64,7 @@ export const styles = StyleSheet.create({
     width:'100%',
     height:150,
     borderRadius:3,
-    borderWidth:2,
+    borderWidth:1,
     borderColor:'#dadada',
     padding:16,
     textAlignVertical:'top',

@@ -26,6 +26,10 @@ export function Report() {
     const newSelected = [...selected];
     if(newSelected.includes(id)){
       newSelected.splice((newSelected.indexOf(id)), 1);
+      if(id === 3){
+        setTitle('');
+        setDescription('');
+      }
     }else{
       newSelected.push(id);
     }
@@ -39,13 +43,14 @@ export function Report() {
   function handleOnPress(){
     let message = '';
     selected.forEach((id) => {
-      const option = options.find((option) => option.id === id);
-      message += `${option.text}\n`;
+      if(id !== 3){
+        const option = options.find((option) => option.id === id);
+        message += `${option.text}\n\n`;
+      }
     });
     
     if(selected.includes(3)){
-      message += '\n';
-      message += `${title}\n`;
+      message += `${title}: `;
       message += `${description}\n`;
     }
     
@@ -96,7 +101,7 @@ export function Report() {
               editable={selected.includes(3)} 
               style={styles.inputTitle}
               placeholder="Título"
-              placeholderTextColor="#596462"
+              placeholderTextColor="#424F4D"
               onChangeText={(text) => setTitle(text)}
               value={title}
             />
@@ -104,7 +109,7 @@ export function Report() {
               editable={selected.includes(3)}
               style={styles.inputDescription}
               placeholder="Especifique aqui o que houve."
-              placeholderTextColor="#596462"
+              placeholderTextColor="#424F4D"
               onChangeText={(text) => setDescription(text)}
               value={description}
             />
