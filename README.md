@@ -1,3 +1,7 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/LucasHARosa/PS_UpBase)
+![GitHub language count](https://img.shields.io/github/languages/count/LucasHARosa/PS_UpBase)
+![GitHub top language](https://img.shields.io/github/languages/top/LucasHARosa/PS_UpBase)
+![GitHub last commit](https://img.shields.io/github/last-commit/LucasHARosa/PS_UpBase)
 # Processo Seletivo UpBase - Aplicação Esther home care
 
 Tela única criada em React Native
@@ -7,9 +11,9 @@ A tela em questão é a tela reportar, que tem como o objetivo reportar um profi
 
 ## Telas:
 <p align="center">
-    <img height="400" src="./imagens/Reportar1.png" alt="">
-    <img height="400" src="./imagens/Reportar2.png" alt="">
-    <img height="400" src="./imagens/Reportar3.png" alt="">
+    <img height="400" src="./Imagens/Reportar1.png" alt="">
+    <img height="400" src="./Imagens/Reportar2.png" alt="">
+    <img height="400" src="./Imagens/Reportar3.png" alt="">
 </p>
 
 ## Funcionalidades
@@ -24,5 +28,5 @@ Como é o desenvolvimento de apenas uma tela, decidi colocar todas as funcionali
 
 
 <p align="center">
-    <img height="400" src="./imagens/ester.gif" alt="">
+    <img height="400" src="./Imagens/ester.gif" alt="">
 </p>
